@@ -1,4 +1,4 @@
-# Bookstore API :books:
+# Bookstore CRUD :books:
 
 Esse projeto objetivou a criação de uma API REST utilizando [NestJS](https://docs.nestjs.com/) como framework e o [MySQL](https://www.mysql.com/) para o banco de dados. Para isso, foi simulado um sistema de um livraria para atender os seguintes requisitos:
 
