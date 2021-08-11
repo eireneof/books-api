@@ -18,6 +18,8 @@ Para a integração com o banco de dados foi utilizado o [sequelize](https://doc
   * Update `http://localhost:3000/books`
   * Delete `http://localhost:3000/books/id`
 
+*OBS: Para testar as urls vc pode utilizar o [Postman](https://www.postman.com/) (uma plataforma para usar e testar APIs, caso você ainda não tenha uma instalada)*
+
 
 
 ## Instalação
@@ -26,7 +28,7 @@ Para a integração com o banco de dados foi utilizado o [sequelize](https://doc
 $ npm install
 ```
 
-## Rodando o app
+## Rodando o projeto
 
 ```bash
 # development

@@ -3,9 +3,9 @@ import { ConfigModule } from '@nestjs/config';
 import { SequelizeModule } from '@nestjs/sequelize';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { Book } from './book.model';
-import { BooksController } from './books.controller';
-import { BooksService } from './books.service';
+import { Book } from './books/book.model';
+import { BooksController } from './books/books.controller';
+import { BooksService } from './books/books.service';
 
 @Module({
   imports: [
