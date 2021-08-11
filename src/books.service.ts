@@ -1,6 +1,5 @@
 import { Injectable } from "@nestjs/common";
 import { InjectModel } from "@nestjs/sequelize";
-//import { Sequelize } from "sequelize-typescript";
 import { Book } from "./book.model";
 
 @Injectable()
@@ -10,7 +9,6 @@ export class BooksService {
         
         @InjectModel(Book)
         private bookModel: typeof Book,
-        //private sequelize: Sequelize
         ) {}
 
     async getAll(): Promise<Book[]> {

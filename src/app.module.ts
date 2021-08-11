@@ -17,7 +17,6 @@ import { BooksService } from './books.service';
       username: process.env.USER_DATA_BASE, // usuário do MySQL
       password: process.env.PASSWORD_DATA_BASE, // senha do usuário do MySQL
       database: 'bookstore', // nome do banco de dados
-      //models: [ Book ] 
       autoLoadModels: true,
       synchronize: true,
     }),
