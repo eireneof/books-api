@@ -13,7 +13,7 @@ import { BooksService } from './books.service';
     SequelizeModule.forRoot({
       dialect: 'mysql', 
       host: 'localhost', 
-      port: 3306, 
+      port: 3306, //porta padrão do MySQL
       username: process.env.USER_DATA_BASE, // usuário do MySQL
       password: process.env.PASSWORD_DATA_BASE, // senha do usuário do MySQL
       database: 'bookstore', // nome do banco de dados
